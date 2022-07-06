@@ -850,7 +850,7 @@ main(int argc, char **argv){
     inicio = MPI_Wtime();
     //MPI_Barrier(MPI_COMM_WORLD);
     
-    for(int j =0; j<10; j++){
+    for(int j =0; j<5; j++){
         if(node == 0){
             inicializar(recibo, cantEnvio, fil); //cambiar logica
             asignoNada(nada, fil);
