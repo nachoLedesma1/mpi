@@ -762,7 +762,7 @@ main(int argc, char **argv){
     
 
     //variables a usar 
-    int cantCelReal = 30;
+    int cantCelReal = 800;
     int fil = cantCelReal, col = cantCelReal, caso,t=0;
     int cantEnvio = (col*fil)/cantNodos;
     float tiempos[10];
